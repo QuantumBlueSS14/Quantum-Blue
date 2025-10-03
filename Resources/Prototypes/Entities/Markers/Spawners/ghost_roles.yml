@@ -111,12 +111,13 @@
     rules: ghost-role-information-loneop-rules
     mindRoles:
     - MindRoleGhostRoleSoloAntagonist
-    requirements: # DeltaV
-    - !type:OverallPlaytimeRequirement
-      time: 172800 # 48 hours overall
-    - !type:DepartmentTimeRequirement
-      department: Security
-      time: 36000 # 10 hours of sec
+    # QB: Temporary measures for the playtest!
+    #requirements: # DeltaV
+    #- !type:OverallPlaytimeRequirement
+    #  time: 172800 # 48 hours overall
+    #- !type:DepartmentTimeRequirement
+    #  department: Security
+    #  time: 36000 # 10 hours of sec
   - type: Sprite
     sprite: Markers/jobs.rsi
     layers:
@@ -191,8 +192,9 @@
     raffle:
       settings: default
     requirements:
-    - !type:OverallPlaytimeRequirement # DeltaV - Playtime requirement
-      time: 259200 # DeltaV - 72 hours
+    - !type:WhitelistRequirement # QB: Space ninja is whitelisted! Also temporarily removing time requirment
+    #- !type:OverallPlaytimeRequirement # DeltaV - Playtime requirement
+    #  time: 259200 # DeltaV - 72 hours
   - type: Sprite
     sprite: Markers/jobs.rsi
     layers:

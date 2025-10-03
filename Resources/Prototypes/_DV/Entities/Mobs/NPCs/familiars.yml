@@ -102,10 +102,11 @@
     allowSpeech: true
     name: "Ifriit"
     description: "You are a servant of the mystagogue. Obey them directly."
-    requirements:
-    - !type:DepartmentTimeRequirement
-      department: Epistemics
-      time: 14400 # DeltaV - 4 hours
+    # QB Temp Requirement Removal
+    #requirements:
+    #- !type:DepartmentTimeRequirement
+    #  department: Epistemics
+    #  time: 14400 # DeltaV - 4 hours
 
 - type: entity
   parent: WelderExperimental
