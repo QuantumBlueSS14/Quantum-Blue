@@ -31,14 +31,11 @@ min_players_sharing_connection = 2
 [server]
 id = "quantumblue"
 rules_file = "QuantumBlueRuleset"
-uptime_restart_minutes = 720 # 12h
+uptime_restart_minutes = 0 # For now
 
-# general mrp stuff
 [ic]
 flavor_text = true
 punctuation = true
-
-
 
 [atmos]
 space_wind = true
