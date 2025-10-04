@@ -1053,6 +1053,32 @@ namespace Content.Server.Administration.Systems
             return _recentMessages;
         }
         // End Starlight Changes
+
+        // Begin QuantumBlue - Log AHelps to server logs for audit trail
+        protected override void LogBwoink(BwoinkTextMessage message)
+        {
+            // Strip markup from formatted text
+            var cleanText = FormattedMessage.RemoveMarkupPermissive(message.Text);
+
+            // Look up usernames (fall back to NetUserId if offline)
+            var senderName = _playerManager.TryGetSessionById(message.TrueSender, out var senderSession)
+                ? senderSession.Name
+                : message.TrueSender.UserId.ToString();
+
+            var recipientName = _playerManager.TryGetSessionById(message.UserId, out var recipientSession)
+                ? recipientSession.Name
+                : message.UserId.UserId.ToString();
+
+            // Build flags string
+            var flags = new List<string>();
+            if (message.AdminOnly) flags.Add("ADMIN-ONLY");
+            if (!message.PlaySound) flags.Add("SILENT");
+            var flagsStr = flags.Count > 0 ? $" [{string.Join(", ", flags)}]" : "";
+
+            // Log in clean format
+            _sawmill.Info($"AHELP: {senderName} -> {recipientName}{flagsStr}: {cleanText}");
+        }
+        // End QuantumBlue
     }
 
     public sealed class AHelpMessageParams
