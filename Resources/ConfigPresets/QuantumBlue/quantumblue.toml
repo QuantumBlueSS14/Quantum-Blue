@@ -1,7 +1,7 @@
 [game]
 desc = "A medium roleplay fork based around the paranormal with unique content and almost all unique art, all with a focus on lore and immersion."
 lobbyenabled = true
-lobbyduration = 240
+lobbyduration = 6000
 round_end_pacifist = true
 round_restart_time = 300
 contraband_examine = false
