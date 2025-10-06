@@ -12,13 +12,16 @@
     engineering: AirlockEngineering
     freezer: AirlockFreezer
     hydroponics: AirlockHydroponics
-    justice: AirlockJustice
     maintenance: AirlockMaint
     medical: AirlockMedical
     salvage: AirlockSalvage
     science: AirlockScience
+    # DeltaV: Robotics
+    robotics: AirlockRobotics
     security: AirlockSecurity
     virology: AirlockVirology
+    # DeltaV: Justice
+    justice: AirlockJustice
 
 - type: paintableGroup
   id: AirlockGlass
@@ -33,10 +36,13 @@
     command: AirlockCommandGlass
     engineering: AirlockEngineeringGlass
     hydroponics: AirlockHydroponicsGlass
-    justice: AirlockJusticeGlass
     maintenance: AirlockMaintGlass
     medical: AirlockMedicalGlass
     salvage: AirlockSalvageGlass
     science: AirlockScienceGlass
+    # DeltaV: Robotics
+    robotics: AirlockRoboticsGlass
     security: AirlockSecurityGlass
     virology: AirlockVirologyGlass
+    # DeltaV: Justice
+    justice: AirlockJusticeGlass
