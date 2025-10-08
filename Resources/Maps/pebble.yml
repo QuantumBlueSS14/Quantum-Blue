@@ -4,8 +4,8 @@ meta:
   engineVersion: 267.2.1
   forkId: ""
   forkVersion: ""
-  time: 10/08/2025 13:37:36
-  entityCount: 15134
+  time: 10/08/2025 16:03:16
+  entityCount: 15137
 maps:
 - 1
 grids:
@@ -7990,7 +7990,7 @@ entities:
       pos: -9.5,-0.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -2132.6982
+      secondsUntilStateChange: -3116.6758
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -37417,12 +37417,6 @@ entities:
     - type: Transform
       pos: -24.5,-26.5
       parent: 2
-  - uid: 4338
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 30.5,29.5
-      parent: 2
   - uid: 4339
     components:
     - type: Transform
@@ -39721,6 +39715,12 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 53.5,-14.5
       parent: 2
+  - uid: 7591
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 42.5,-11.5
+      parent: 2
   - uid: 7735
     components:
     - type: Transform
@@ -39936,6 +39936,18 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 11.5,-2.5
+      parent: 2
+  - uid: 15135
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 43.5,-11.5
+      parent: 2
+  - uid: 15136
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 41.5,-11.5
       parent: 2
 - proto: CorporateCircuitBoard
   entities:
@@ -67360,12 +67372,6 @@ entities:
     - type: Transform
       pos: 19.51327,14.915197
       parent: 2
-  - uid: 7591
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 29.438976,29.771719
-      parent: 2
 - proto: LampGold
   entities:
   - uid: 891
@@ -71300,10 +71306,10 @@ entities:
       parent: 2
 - proto: PlushieAtmosian
   entities:
-  - uid: 7817
+  - uid: 4338
     components:
     - type: Transform
-      pos: 30.370932,29.61524
+      pos: 31.49673,29.496254
       parent: 2
 - proto: PlushieBee
   entities:
@@ -76721,6 +76727,12 @@ entities:
       parent: 2
 - proto: Recycler
   entities:
+  - uid: 9283
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 42.5,-11.5
+      parent: 2
   - uid: 14750
     components:
     - type: Transform
@@ -83830,11 +83842,6 @@ entities:
     - type: Transform
       pos: 12.5,13.5
       parent: 2
-  - uid: 9283
-    components:
-    - type: Transform
-      pos: 29.5,29.5
-      parent: 2
   - uid: 9284
     components:
     - type: Transform
@@ -85097,6 +85104,35 @@ entities:
     - type: Transform
       pos: 9.5,0.5
       parent: 2
+  - uid: 15137
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 42.5,-12.5
+      parent: 2
+    - type: DeviceLinkSource
+      linkedPorts:
+        15135:
+        - - Right
+          - Forward
+        - - Left
+          - Reverse
+        - - Middle
+          - Off
+        7591:
+        - - Left
+          - Reverse
+        - - Right
+          - Forward
+        - - Middle
+          - Off
+        15136:
+        - - Right
+          - Forward
+        - - Middle
+          - Off
+        - - Left
+          - Reverse
 - proto: UniformPrinter
   entities:
   - uid: 9380
@@ -85115,6 +85151,13 @@ entities:
     components:
     - type: Transform
       pos: -6.5,-12.5
+      parent: 2
+- proto: VendingMachineAtmosDrobe
+  entities:
+  - uid: 7817
+    components:
+    - type: Transform
+      pos: 29.5,29.5
       parent: 2
 - proto: VendingMachineBooze
   entities:
