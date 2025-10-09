@@ -1,11 +1,11 @@
 meta:
   format: 7
   category: Map
-  engineVersion: 260.2.0
+  engineVersion: 267.2.1
   forkId: ""
   forkVersion: ""
-  time: 06/03/2025 06:32:08
-  entityCount: 30663
+  time: 10/09/2025 11:17:27
+  entityCount: 30658
 maps:
 - 8
 grids:
@@ -22180,10 +22180,11 @@ entities:
     - type: InsideEntityStorage
 - proto: BorgCharger
   entities:
-  - uid: 6169
+  - uid: 7098
     components:
     - type: Transform
-      pos: 120.5,9.5
+      rot: 3.141592653589793 rad
+      pos: 116.5,4.5
       parent: 1
   - uid: 9967
     components:
@@ -54821,52 +54822,6 @@ entities:
     components:
     - type: Transform
       pos: 32.595047,48.68643
-      parent: 1
-- proto: CapacitorStockPart
-  entities:
-  - uid: 6586
-    components:
-    - type: Transform
-      pos: -61.28784,0.084352255
-      parent: 1
-  - uid: 7335
-    components:
-    - type: Transform
-      pos: 9.15836,50.816696
-      parent: 1
-  - uid: 15746
-    components:
-    - type: Transform
-      pos: -39.465042,-5.9865355
-      parent: 1
-  - uid: 16379
-    components:
-    - type: Transform
-      pos: 6.301897,-17.943306
-      parent: 1
-  - uid: 22998
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 74.242195,37.546135
-      parent: 1
-  - uid: 23000
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 74.48178,37.77546
-      parent: 1
-  - uid: 23001
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 74.79428,37.556564
-      parent: 1
-  - uid: 23065
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 73.37761,37.60868
       parent: 1
 - proto: CarbonDioxideCanister
   entities:
@@ -138223,6 +138178,36 @@ entities:
     - type: Transform
       pos: 164.5,2.5
       parent: 1
+- proto: IntercomCommon
+  entities:
+  - uid: 7094
+    components:
+    - type: Transform
+      pos: 32.5,13.5
+      parent: 1
+  - uid: 12461
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 9.5,9.5
+      parent: 1
+  - uid: 16850
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 76.5,1.5
+      parent: 1
+  - uid: 16979
+    components:
+    - type: Transform
+      pos: 46.5,6.5
+      parent: 1
+  - uid: 21591
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -5.5,7.5
+      parent: 1
 - proto: IntercomElectronics
   entities:
   - uid: 28657
@@ -138239,6 +138224,12 @@ entities:
       parent: 1
 - proto: IntercomEngineering
   entities:
+  - uid: 7095
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -35.5,29.5
+      parent: 1
   - uid: 25683
     components:
     - type: Transform
@@ -138377,6 +138368,18 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 34.5,-17.5
+      parent: 1
+  - uid: 7096
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 45.5,17.5
+      parent: 1
+  - uid: 7097
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 21.5,-6.5
       parent: 1
   - uid: 25689
     components:
@@ -139335,6 +139338,13 @@ entities:
         25216:
         - - Pressed
           - Toggle
+- proto: LockerAdministrativeAssistantFilled
+  entities:
+  - uid: 6169
+    components:
+    - type: Transform
+      pos: 120.5,9.5
+      parent: 1
 - proto: LockerAtmosphericsFilledHardsuit
   entities:
   - uid: 7381
@@ -140809,27 +140819,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -75.31066,9.590001
       parent: 1
-- proto: MagazineShotgun
-  entities:
-  - uid: 25243
-    components:
-    - type: Transform
-      pos: 78.57585,14.734255
-      parent: 1
-- proto: MagazineShotgunBeanbag
-  entities:
-  - uid: 12461
-    components:
-    - type: Transform
-      pos: 78.35085,14.609168
-      parent: 1
-- proto: MagazineShotgunSlug
-  entities:
-  - uid: 22624
-    components:
-    - type: Transform
-      pos: 78.73836,14.621677
-      parent: 1
 - proto: MagicDiceBag
   entities:
   - uid: 10456
@@ -141577,23 +141566,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -62.661724,-17.722626
       parent: 1
-- proto: MatterBinStockPart
-  entities:
-  - uid: 12903
-    components:
-    - type: Transform
-      pos: 32.719513,-38.3468
-      parent: 1
-  - uid: 26242
-    components:
-    - type: Transform
-      pos: 72.99473,37.792862
-      parent: 1
-  - uid: 26243
-    components:
-    - type: Transform
-      pos: 73.00515,37.542686
-      parent: 1
 - proto: Mattress
   entities:
   - uid: 2963
@@ -141864,10 +141836,30 @@ entities:
     - type: Transform
       pos: -61.79826,-0.42641914
       parent: 1
+  - uid: 6586
+    components:
+    - type: Transform
+      pos: -61.28784,0.084352255
+      parent: 1
+  - uid: 7335
+    components:
+    - type: Transform
+      pos: 9.15836,50.816696
+      parent: 1
   - uid: 7336
     components:
     - type: Transform
       pos: 8.93961,50.639496
+      parent: 1
+  - uid: 12903
+    components:
+    - type: Transform
+      pos: 32.719513,-38.3468
+      parent: 1
+  - uid: 15746
+    components:
+    - type: Transform
+      pos: -39.465042,-5.9865355
       parent: 1
   - uid: 15944
     components:
@@ -141881,10 +141873,49 @@ entities:
       rot: 3.141592653589793 rad
       pos: 6.7602305,-17.79737
       parent: 1
+  - uid: 16379
+    components:
+    - type: Transform
+      pos: 6.301897,-17.943306
+      parent: 1
+  - uid: 22998
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 74.242195,37.546135
+      parent: 1
+  - uid: 23000
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 74.48178,37.77546
+      parent: 1
+  - uid: 23001
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 74.79428,37.556564
+      parent: 1
+  - uid: 23065
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 73.37761,37.60868
+      parent: 1
   - uid: 26226
     components:
     - type: Transform
       pos: 72.4739,37.740746
+      parent: 1
+  - uid: 26242
+    components:
+    - type: Transform
+      pos: 72.99473,37.792862
+      parent: 1
+  - uid: 26243
+    components:
+    - type: Transform
+      pos: 73.00515,37.542686
       parent: 1
   - uid: 26244
     components:
@@ -142339,11 +142370,6 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 26.5,-6.5
-      parent: 1
-  - uid: 16979
-    components:
-    - type: Transform
-      pos: 21.5,-6.5
       parent: 1
 - proto: NTDefaultCircuitBoard
   entities:
@@ -150759,12 +150785,6 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 116.5,3.5
-      parent: 1
-  - uid: 14803
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 116.5,4.5
       parent: 1
   - uid: 14966
     components:
@@ -160488,8 +160508,7 @@ entities:
   - uid: 14804
     components:
     - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 116.51474,4.6287937
+      pos: 116.595314,3.584292
       parent: 1
 - proto: SheetPlasma
   entities:
@@ -160526,8 +160545,7 @@ entities:
   - uid: 14805
     components:
     - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 116.462654,3.6072507
+      pos: 116.266945,3.6155744
       parent: 1
 - proto: SheetPlastic
   entities:
@@ -163546,11 +163564,6 @@ entities:
     - type: Transform
       pos: 14.5,9.5
       parent: 1
-  - uid: 16850
-    components:
-    - type: Transform
-      pos: 9.5,9.5
-      parent: 1
   - uid: 16863
     components:
     - type: Transform
@@ -165627,10 +165640,10 @@ entities:
       parent: 1
 - proto: SpawnPointAdminAssistant
   entities:
-  - uid: 29785
+  - uid: 12030
     components:
     - type: Transform
-      pos: 122.5,9.5
+      pos: 113.5,-9.5
       parent: 1
 - proto: SpawnPointAtmos
   entities:
@@ -166445,33 +166458,6 @@ entities:
     - type: Transform
       pos: 28.5,-43.5
       parent: 1
-- proto: SpawnPointPrisoner
-  entities:
-  - uid: 7094
-    components:
-    - type: Transform
-      pos: 63.5,28.5
-      parent: 1
-  - uid: 7095
-    components:
-    - type: Transform
-      pos: 63.5,24.5
-      parent: 1
-  - uid: 7096
-    components:
-    - type: Transform
-      pos: 66.5,25.5
-      parent: 1
-  - uid: 7097
-    components:
-    - type: Transform
-      pos: 66.5,24.5
-      parent: 1
-  - uid: 7098
-    components:
-    - type: Transform
-      pos: 69.5,29.5
-      parent: 1
 - proto: SpawnPointPrisonGuard
   entities:
   - uid: 7470
@@ -166833,16 +166819,6 @@ entities:
     - type: Transform
       pos: -3.5,16.5
       parent: 1
-  - uid: 12030
-    components:
-    - type: Transform
-      pos: 26.5,1.5
-      parent: 1
-  - uid: 23909
-    components:
-    - type: Transform
-      pos: 14.5,-48.5
-      parent: 1
   - uid: 25113
     components:
     - type: Transform
@@ -166990,6 +166966,13 @@ entities:
     components:
     - type: Transform
       pos: 79.5,11.5
+      parent: 1
+- proto: SpawnPointZookeeper
+  entities:
+  - uid: 14803
+    components:
+    - type: Transform
+      pos: 26.5,1.5
       parent: 1
 - proto: SpawnVendingMachineRestockFoodDrink
   entities:
@@ -195594,22 +195577,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 162.5,-1.5
       parent: 1
-- proto: WeaponEnergyGunPistol
-  entities:
-  - uid: 21591
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 78.404945,11.145396
-      parent: 1
-    - type: EnergyGun
-      currentFireMode:
-        state: disabler
-        name: disable
-        fireCost: 100
-        proto: BulletDisabler
-    - type: Item
-      heldPrefix: disabler
 - proto: WeaponFlareGun
   entities:
   - uid: 4352
@@ -195622,17 +195589,6 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 127.280754,-6.3698344
-      parent: 1
-- proto: WeaponShotgunBulldog
-  entities:
-  - uid: 22088
-    components:
-    - type: MetaData
-      desc: NanoTrasen's attempt at recreating the Syndicate's infamous bulldog, an automatic drum-fed shotgun. The design was rejected for full distribution because it was "More of a rip-off then a remake." Uses .50 shotgun shells.
-      name: HoS's Prototype Pitbull
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 78.53835,14.484081
       parent: 1
 - proto: WeaponTurretAI
   entities:
@@ -196546,7 +196502,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -205274.56
+      secondsUntilStateChange: -205922.9
       state: Opening
   - uid: 5096
     components:
@@ -196563,7 +196519,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -205274.56
+      secondsUntilStateChange: -205922.9
       state: Opening
   - uid: 5498
     components:
@@ -196579,7 +196535,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -204998.19
+      secondsUntilStateChange: -205646.53
       state: Opening
   - uid: 8696
     components:
@@ -196612,7 +196568,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -204996.3
+      secondsUntilStateChange: -205644.64
       state: Opening
   - uid: 18835
     components:
@@ -196624,7 +196580,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -204993.3
+      secondsUntilStateChange: -205641.64
       state: Opening
   - uid: 23917
     components:
