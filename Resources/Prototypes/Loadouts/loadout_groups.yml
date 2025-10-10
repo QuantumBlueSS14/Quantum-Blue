@@ -66,7 +66,6 @@
   - TapeRecorder
   - ClothingHeadHatUshanka
   - Eyepatch
-  - SuperSynthesizerInstrument #Delta-V - Ports Super Synth Trinket from Starlight
   # End DeltaV Additions
 
 - type: loadoutGroup
@@ -779,6 +778,7 @@
   - PanFlute
   - Ocarina
   - Bagpipe
+  - SuperSynthesizerInstrument #Delta-V - Ports Super Synth Trinket from Starlight
 
 # Cargo
 - type: loadoutGroup
