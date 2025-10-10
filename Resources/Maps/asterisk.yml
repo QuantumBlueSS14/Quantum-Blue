@@ -4,8 +4,8 @@ meta:
   engineVersion: 267.2.1
   forkId: ""
   forkVersion: ""
-  time: 10/08/2025 23:01:30
-  entityCount: 12820
+  time: 10/10/2025 03:28:48
+  entityCount: 12811
 maps:
 - 7928
 grids:
@@ -3059,11 +3059,13 @@ entities:
           -11,4:
             0: 56828
           -10,1:
-            0: 12287
+            0: 12031
+            5: 256
           -10,2:
             0: 62719
           -10,3:
-            0: 61695
+            0: 61679
+            6: 16
           -10,4:
             0: 24575
           -13,4:
@@ -3621,6 +3623,36 @@ entities:
           moles:
           - 6666.982
           - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        - volume: 2500
+          temperature: 293.15
+          moles:
+          - 21.6852
+          - 81.57766
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        - volume: 2500
+          temperature: 293.14975
+          moles:
+          - 20.078888
+          - 75.53487
           - 0
           - 0
           - 0
@@ -6469,6 +6501,11 @@ entities:
     - type: Transform
       pos: -25.5,13.5
       parent: 2
+  - uid: 2666
+    components:
+    - type: Transform
+      pos: -27.5,4.5
+      parent: 2
   - uid: 3651
     components:
     - type: Transform
@@ -6576,11 +6613,6 @@ entities:
     - type: Transform
       pos: -27.5,5.5
       parent: 2
-  - uid: 5097
-    components:
-    - type: Transform
-      pos: -27.5,4.5
-      parent: 2
   - uid: 11404
     components:
     - type: Transform
@@ -6593,6 +6625,12 @@ entities:
     - type: Transform
       pos: -26.5,2.5
       parent: 2
+    - type: Door
+      secondsUntilStateChange: -917.83057
+      state: Opening
+    - type: DeviceLinkSource
+      lastSignals:
+        DoorStatus: True
   - uid: 3661
     components:
     - type: Transform
@@ -29025,24 +29063,32 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 31.5,29.5
       parent: 2
+    - type: DeviceLinkSink
+      invokeCounter: 1
   - uid: 11039
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 30.5,29.5
       parent: 2
+    - type: DeviceLinkSink
+      invokeCounter: 1
   - uid: 11201
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 32.5,29.5
       parent: 2
+    - type: DeviceLinkSink
+      invokeCounter: 1
   - uid: 11203
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 33.5,29.5
       parent: 2
+    - type: DeviceLinkSink
+      invokeCounter: 1
 - proto: CorporateCircuitBoard
   entities:
   - uid: 12297
@@ -56286,8 +56332,8 @@ entities:
         immutable: False
         temperature: 293.14673
         moles:
-        - 1.7459903
-        - 6.568249
+        - 1.8856695
+        - 7.0937095
         - 0
         - 0
         - 0
@@ -56500,6 +56546,24 @@ entities:
     - type: Transform
       pos: -39.5,13.5
       parent: 2
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14673
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
 - proto: LockerWeldingSuppliesFilled
   entities:
   - uid: 9484
@@ -61536,6 +61600,8 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 31.5,29.5
       parent: 2
+    - type: DeviceLinkSink
+      invokeCounter: 1
 - proto: ReinforcedGirder
   entities:
   - uid: 1
@@ -65847,28 +65913,6 @@ entities:
     - type: Transform
       pos: -24.5,28.5
       parent: 2
-- proto: SpawnPointPrisoner
-  entities:
-  - uid: 10819
-    components:
-    - type: Transform
-      pos: -32.5,16.5
-      parent: 2
-  - uid: 10820
-    components:
-    - type: Transform
-      pos: -34.5,17.5
-      parent: 2
-  - uid: 10821
-    components:
-    - type: Transform
-      pos: -32.5,17.5
-      parent: 2
-  - uid: 10822
-    components:
-    - type: Transform
-      pos: -34.5,16.5
-      parent: 2
 - proto: SpawnPointProsecutor
   entities:
   - uid: 11633
@@ -66004,18 +66048,6 @@ entities:
     - type: Transform
       pos: -30.5,7.5
       parent: 2
-- proto: SpawnPointServiceWorker
-  entities:
-  - uid: 11207
-    components:
-    - type: Transform
-      pos: 2.5,-15.5
-      parent: 2
-  - uid: 11208
-    components:
-    - type: Transform
-      pos: 7.5,-18.5
-      parent: 2
 - proto: SpawnPointStationEngineer
   entities:
   - uid: 10037
@@ -66088,18 +66120,6 @@ entities:
     components:
     - type: Transform
       pos: -33.5,8.5
-      parent: 2
-- proto: SpeedLoaderSpecial
-  entities:
-  - uid: 2666
-    components:
-    - type: Transform
-      pos: -37.787407,4.6658316
-      parent: 2
-  - uid: 2861
-    components:
-    - type: Transform
-      pos: -37.787407,4.6658316
       parent: 2
 - proto: SprayBottleSpaceCleaner
   entities:
@@ -69472,6 +69492,8 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 35.5,29.5
       parent: 2
+    - type: TwoWayLever
+      nextSignalLeft: True
     - type: DeviceLinkSource
       linkedPorts:
         11203:
@@ -69496,6 +69518,13 @@ entities:
         - - Middle
           - Off
         10832:
+        - - Left
+          - Forward
+        - - Right
+          - Reverse
+        - - Middle
+          - Off
+        12815:
         - - Left
           - Forward
         - - Right
@@ -78384,13 +78413,6 @@ entities:
     components:
     - type: Transform
       pos: -49.455643,11.741809
-      parent: 2
-- proto: WeaponRevolverK38Master
-  entities:
-  - uid: 10799
-    components:
-    - type: Transform
-      pos: -37.48648,4.3924932
       parent: 2
 - proto: WeaponRifleBB
   entities:
