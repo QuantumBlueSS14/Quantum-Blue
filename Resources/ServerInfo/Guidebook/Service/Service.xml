@@ -12,7 +12,6 @@
     <GuideEntityEmbed Entity="ToyFigurineJanitor" Caption="Janitor"/>
   </Box>
   <Box>
-    <GuideEntityEmbed Entity="ToyFigurineChaplain" Caption="Chaplain"/>
     <GuideEntityEmbed Entity="ToyFigurineClown" Caption="Clown"/>
     <GuideEntityEmbed Entity="ToyFigurineMime" Caption="Mime"/>
     <GuideEntityEmbed Entity="ToyFigurineMusician" Caption="Musician"/>
