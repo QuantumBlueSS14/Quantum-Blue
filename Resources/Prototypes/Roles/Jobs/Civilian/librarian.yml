@@ -10,6 +10,7 @@
   - Service
   - Maintenance
   - Library # DeltaV - Add Library access
+  - Research # DeltaV - Works with epistemics department
 
 - type: startingGear
   id: LibrarianGear
@@ -22,6 +23,7 @@
   storage:
     back:
     - BookRandom
+    - BookRestorationKit # DeltaV - new tool important for their job
 
 - type: chameleonOutfit
   id: LibrarianChameleonOutfit
