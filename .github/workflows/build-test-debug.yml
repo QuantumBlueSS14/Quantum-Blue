@@ -47,6 +47,12 @@ jobs:
     - name: Build Client
       run: dotnet build --configuration DebugOpt --no-restore /p:WarningsAsErrors=nullable /m Content.Client/Content.Client.csproj
 
+    - name: Build Content.Tests
+      run: dotnet build --configuration DebugOpt --no-restore /p:WarningsAsErrors=nullable /m Content.Tests/Content.Tests.csproj
+
+    - name: Build Content.IntegrationTests
+      run: dotnet build --configuration DebugOpt --no-restore /p:WarningsAsErrors=nullable /m Content.IntegrationTests/Content.IntegrationTests.csproj
+
     - name: Run Content.Tests
       run: dotnet test --no-build --configuration DebugOpt Content.Tests/Content.Tests.csproj -- NUnit.ConsoleOut=0
 
