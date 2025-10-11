@@ -278,10 +278,7 @@
         - DiscreteHealthAnalyzer
         - SurgeryTool
         - Dropper
-        # Begin DeltaV additions
-        - Vial
-        - Syringe
-        # End DeltaV Additions
+        - Vial # DeltaV - vial gaming
       components:
         - Defibrillator # DeltaV - Add PortaFib to EMT belt
         - Hypospray

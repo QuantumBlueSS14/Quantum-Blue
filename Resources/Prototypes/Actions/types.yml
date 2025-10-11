@@ -221,7 +221,7 @@
     event: !type:ToggleClothingEvent
 
 - type: entity
-  parent: BaseMentalAction
+  parent: BaseAction
   id: ActionCombatModeToggle
   name: "[color=red]Combat Mode[/color]"
   description: Enter combat mode

@@ -15,10 +15,6 @@
     state: icon
   - type: TimedDespawn
     lifetime: 90
-  - type: PointLight # DeltaV - lit holograms
-    enabled: true
-    radius: 3
-    color: yellow
   - type: Damageable
     damageContainer: Inorganic
   - type: Destructible
@@ -52,10 +48,6 @@
   - type: Airtight
     noAirWhenFullyAirBlocked: false
   - type: Holofan # DeltaV - for whitelisting
-  - type: PointLight # DeltaV - lit holograms
-    enabled: true
-    radius: 3
-    color: yellow
 
 - type: entity
   id: HolosignSecurity
