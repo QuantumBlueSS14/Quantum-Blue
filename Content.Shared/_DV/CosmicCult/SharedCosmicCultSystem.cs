@@ -32,7 +32,6 @@ public abstract class SharedCosmicCultSystem : EntitySystem
 
         SubscribeLocalEvent<CosmicTransmutableComponent, GetVerbsEvent<ExamineVerb>>(OnTransmutableExamined);
         SubscribeLocalEvent<CosmicCultExamineComponent, ExaminedEvent>(OnCosmicCultExamined);
-        SubscribeLocalEvent<CosmicSubtleMarkComponent, ExaminedEvent>(OnSubtleMarkExamined);
     }
 
     private void OnTransmutableExamined(Entity<CosmicTransmutableComponent> ent, ref GetVerbsEvent<ExamineVerb> args)
@@ -55,15 +54,6 @@ public abstract class SharedCosmicCultSystem : EntitySystem
     private void OnCosmicCultExamined(Entity<CosmicCultExamineComponent> ent, ref ExaminedEvent args)
     {
         args.PushMarkup(Loc.GetString(EntitySeesCult(args.Examiner) ? ent.Comp.CultistText : ent.Comp.OthersText));
-    }
-
-    private void OnSubtleMarkExamined(Entity<CosmicSubtleMarkComponent> ent, ref ExaminedEvent args)
-    {
-        var ev = new SeeIdentityAttemptEvent();
-        RaiseLocalEvent(ent, ev);
-        if (ev.TotalCoverage.HasFlag(IdentityBlockerCoverage.EYES)) return;
-
-        args.PushMarkup(Loc.GetString(ent.Comp.ExamineText));
     }
 
     public bool EntityIsCultist(EntityUid user)

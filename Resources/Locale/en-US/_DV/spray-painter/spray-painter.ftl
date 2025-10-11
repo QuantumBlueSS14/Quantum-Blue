@@ -1,5 +1,3 @@
-spray-painter-style-airlockstandard-justice = Justice
-spray-painter-style-airlockglass-justice = Justice
 spray-painter-style-airlockstandard-robotics = Robotics
 spray-painter-style-airlockglass-robotics = Robotics
 spray-painter-style-locker-cj = Chief Justice
