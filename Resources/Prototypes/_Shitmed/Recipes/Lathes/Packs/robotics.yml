@@ -1,27 +1,18 @@
 ## Static
 
 - type: latheRecipePack
-  id: IPCLimbsStatic # DeltaV - Share Surgery Parts between Epi and Med. Non-Medical Parts moved to IPCPartsStatic
+  id: IPCPartsStatic
   recipes:
-  # - TorsoIPC # DeltaV - Moved to IPCLimbsStatic
+  - TorsoIPC
   - LeftArmIPC
   - RightArmIPC
   - LeftLegIPC
   - RightLegIPC
-  # - HeadIPC # DeltaV - Moved to IPCLimbsStatic
+  - HeadIPC
   - LeftHandIPC
   - RightHandIPC
   - LeftFootIPC
   - RightFootIPC
-
-# Begin DeltaV additions
-- type: latheRecipePack
-  parent: IPCLimbsStatic
-  id: IPCPartsStatic
-  recipes:
-  - TorsoIPC
-  - HeadIPC
-# End DeltaV additions
   - OrganIPCEyes
   - OrganIPCPump
 
@@ -44,15 +35,5 @@
   - JawsOfLifeRightArm
   - SpeedLeftLeg
   - SpeedRightLeg
-  # - BasicCyberneticEyes # DeltaV - Moved to CyberneticsRobotics
-  - ClothingHandsGlovesMechanicalSurgical
-  # - OrganIPCSpacePump # DeltaV - Moved to CyberneticsRobotics
-
-  # Begin DeltaV additions
-- type: latheRecipePack # DeltaV - Share Surgery Parts between Epi and Med. Non-Organic & Robotics cybernetics moved to ExoFab.
-  parent: Cybernetics
-  id: CyberneticsRobotics
-  recipes:
   - BasicCyberneticEyes
-  - OrganIPCSpacePump
-  # End DeltaV additions
+  - ClothingHandsGlovesMechanicalSurgical

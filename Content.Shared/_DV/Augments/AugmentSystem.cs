@@ -1,6 +1,5 @@
 using Content.Shared.Body.Events;
 using Content.Shared.Body.Organ;
-using Content.Shared.Examine;
 using Content.Shared.Interaction;
 
 namespace Content.Shared._DV.Augments;
@@ -14,20 +13,6 @@ public sealed class AugmentSystem : EntitySystem
         SubscribeLocalEvent<AugmentComponent, OrganAddedToBodyEvent>(OnOrganOrganAddedToBody);
         SubscribeLocalEvent<AugmentComponent, OrganRemovedFromBodyEvent>(OnOrganOrganRemovedFromBody);
         SubscribeLocalEvent<InstalledAugmentsComponent, AccessibleOverrideEvent>(OnAccessibleOverride);
-
-        SubscribeLocalEvent<InstalledAugmentsComponent, ExaminedEvent>(OnExamined);
-    }
-
-    private void OnExamined(Entity<InstalledAugmentsComponent> ent, ref ExaminedEvent args)
-    {
-        if (ent.Comp.InstalledAugments.Count == 1)
-        {
-            args.PushMarkup(Loc.GetString("augment-tool-panel-examine"));
-        }
-        else
-        {
-            args.PushMarkup(Loc.GetString("augment-tool-panel-examine-multiple"));
-        }
     }
 
     private void OnOrganOrganAddedToBody(Entity<AugmentComponent> augment, ref OrganAddedToBodyEvent args)

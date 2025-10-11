@@ -10,20 +10,18 @@
   - Service
   - Maintenance
   - Library # DeltaV - Add Library access
-  - Research # DeltaV - Works with epistemics department
 
 - type: startingGear
   id: LibrarianGear
   equipment:
     shoes: ClothingShoesBootsLaceup
     id: LibrarianPDA
-    ears: ClothingHeadsetLibrarian
+    ears: ClothingHeadsetService
     pocket1: d20Dice
     pocket2: HandLabeler # for making named bestsellers
   storage:
     back:
     - BookRandom
-    - BookRestorationKit # DeltaV - new tool important for their job
 
 - type: chameleonOutfit
   id: LibrarianChameleonOutfit

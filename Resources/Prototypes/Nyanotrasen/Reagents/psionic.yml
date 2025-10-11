@@ -87,10 +87,10 @@
           reagent: LotophagoiOil
           min: 20
       - !type:GenericStatusEffect
-        key: ScrambledSpeech
+        key: Stutter
         component: ScrambledAccent
       - !type:GenericStatusEffect
-        key: RepeatingTelepath
+        key: SlurredSpeech
         component: TelepathicRepeater
 
 - type: reagent

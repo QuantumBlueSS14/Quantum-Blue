@@ -112,10 +112,8 @@ spray-painter-style-locker-hos = HOS
 spray-painter-style-locker-medicine = Medicine
 spray-painter-style-locker-mime = Mime
 spray-painter-style-locker-paramedic = Paramedic
-# DeltaV: Logistics
-spray-painter-style-locker-quartermaster = Logistics Officer
-# DeltaV: Epistemics
-spray-painter-style-locker-rd = Mystagogue
+spray-painter-style-locker-quartermaster = Quartermaster
+spray-painter-style-locker-rd = RD
 spray-painter-style-locker-representative = Representative
 spray-painter-style-locker-salvage = Salvage
 spray-painter-style-locker-scientist = Scientist
@@ -162,8 +160,7 @@ spray-painter-style-cratesteel-basic = Basic
 spray-painter-style-cratesteel-electrical = Electrical
 spray-painter-style-cratesteel-engineering = Engineering
 spray-painter-style-cratesteel-radiation = Radiation
-# DeltaV: Epistemics
-spray-painter-style-cratesteel-science = Epistemics
+spray-painter-style-cratesteel-science = Science
 spray-painter-style-cratesteel-surgery = Surgery
 
 spray-painter-style-crateplastic-basic = Basic
@@ -181,15 +178,13 @@ spray-painter-style-cratesecure-hydroponics = Hydroponics
 spray-painter-style-cratesecure-medical = Medical
 spray-painter-style-cratesecure-plasma = Plasma
 spray-painter-style-cratesecure-private = Private
-# DeltaV: Epistemics
-spray-painter-style-cratesecure-science = Epistemics
+spray-painter-style-cratesecure-science = Science
 spray-painter-style-cratesecure-secgear = Secgear
 spray-painter-style-cratesecure-weapon = Weapon
 
 # Canisters
 spray-painter-style-canisters-air = Air
-# DeltaV: Miasma
-spray-painter-style-canisters-ammonia = Miasma
+spray-painter-style-canisters-ammonia = Ammonia
 spray-painter-style-canisters-carbon-dioxide = Carbon dioxide
 spray-painter-style-canisters-frezon = Frezon
 spray-painter-style-canisters-nitrogen = Nitrogen

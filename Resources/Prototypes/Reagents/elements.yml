@@ -214,7 +214,7 @@
           types:
             Poison: 1
       - !type:GenericStatusEffect
-        key: ScrambledSpeech
+        key: Stutter
         component: ScrambledAccent
 
 - type: reagent
