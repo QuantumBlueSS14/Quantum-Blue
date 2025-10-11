@@ -45186,6 +45186,7 @@ entities:
       - 5279
       - 5433
       - 5435
+      - 5317
   - uid: 5210
     components:
     - type: Transform
