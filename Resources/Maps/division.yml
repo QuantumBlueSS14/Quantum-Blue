@@ -1,11 +1,11 @@
 meta:
   format: 7
   category: Map
-  engineVersion: 260.2.0
+  engineVersion: 267.2.1
   forkId: ""
   forkVersion: ""
-  time: 08/10/2025 06:11:38
-  entityCount: 25940
+  time: 10/09/2025 14:29:27
+  entityCount: 25950
 maps:
 - 1
 grids:
@@ -57536,6 +57536,13 @@ entities:
     - type: Transform
       pos: 54.59688,26.412218
       parent: 2
+- proto: ClothingHeadHatBeret
+  entities:
+  - uid: 25742
+    components:
+    - type: Transform
+      pos: -16.644825,-35.124496
+      parent: 2
 - proto: ClothingHeadHatBunny
   entities:
   - uid: 9735
@@ -57683,13 +57690,6 @@ entities:
     components:
     - type: Transform
       pos: -11.684595,14.429021
-      parent: 2
-- proto: ClothingHeadHatBeret
-  entities:
-  - uid: 25742
-    components:
-    - type: Transform
-      pos: -16.644825,-35.124496
       parent: 2
 - proto: ClothingHeadHatSolidHeadband
   entities:
@@ -67224,6 +67224,13 @@ entities:
     - type: Transform
       pos: 40.73783,-17.095694
       parent: 2
+- proto: DrinkElectricSharkGlass
+  entities:
+  - uid: 25949
+    components:
+    - type: Transform
+      pos: -40.44287,-47.304485
+      parent: 2
 - proto: DrinkEnergyDrinkCan
   entities:
   - uid: 11273
@@ -67471,6 +67478,13 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
+- proto: DrinkSuiDreamGlass
+  entities:
+  - uid: 25950
+    components:
+    - type: Transform
+      pos: -40.44287,-48.283077
+      parent: 2
 - proto: DrinkWaterBottleFull
   entities:
   - uid: 11294
@@ -117226,6 +117240,12 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -20.5,-44.5
       parent: 2
+  - uid: 25948
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -26.5,-31.5
+      parent: 2
 - proto: IntercomCommon
   entities:
   - uid: 18058
@@ -117283,6 +117303,45 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 30.5,23.5
+      parent: 2
+  - uid: 25004
+    components:
+    - type: Transform
+      pos: 47.5,44.5
+      parent: 2
+  - uid: 25942
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 23.5,22.5
+      parent: 2
+  - uid: 25943
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 23.5,5.5
+      parent: 2
+  - uid: 25944
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 25.5,-12.5
+      parent: 2
+  - uid: 25945
+    components:
+    - type: Transform
+      pos: 0.5,-26.5
+      parent: 2
+  - uid: 25946
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -19.5,-5.5
+      parent: 2
+  - uid: 25947
+    components:
+    - type: Transform
+      pos: -12.5,32.5
       parent: 2
 - proto: IntercomEngineering
   entities:
@@ -117568,6 +117627,12 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 19.5,17.5
+      parent: 2
+  - uid: 25941
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 23.5,33.5
       parent: 2
 - proto: IntercomSupply
   entities:
@@ -118202,6 +118267,13 @@ entities:
         1125:
         - - Pressed
           - Toggle
+- proto: LockerAdministrativeAssistantFilled
+  entities:
+  - uid: 10050
+    components:
+    - type: Transform
+      pos: -17.5,-35.5
+      parent: 2
 - proto: LockerAtmosphericsFilled
   entities:
   - uid: 18204
@@ -121206,20 +121278,6 @@ entities:
     - type: Transform
       pos: 63.554638,-46.51061
       parent: 2
-- proto: PlushieLizard
-  entities:
-  - uid: 18707
-    components:
-    - type: Transform
-      pos: 64.51298,-45.53076
-      parent: 2
-- proto: PlushieLizard
-  entities:
-  - uid: 18708
-    components:
-    - type: Transform
-      pos: 65.48173,-46.57315
-      parent: 2
 - proto: PlushieHampter
   entities:
   - uid: 18709
@@ -121231,21 +121289,6 @@ entities:
     components:
     - type: Transform
       pos: 64.08298,-48.909393
-      parent: 2
-- proto: PlushieLizard
-  entities:
-  - uid: 18711
-    components:
-    - type: Transform
-      pos: 63.742138,-45.655846
-      parent: 2
-  - uid: 18712
-    components:
-    - type: MetaData
-      desc: Caw! Squawk!
-      name: Nova
-    - type: Transform
-      pos: -26.624834,45.024727
       parent: 2
 - proto: PlushieHuman
   entities:
@@ -121263,6 +121306,29 @@ entities:
       parent: 2
 - proto: PlushieLizard
   entities:
+  - uid: 18707
+    components:
+    - type: Transform
+      pos: 64.51298,-45.53076
+      parent: 2
+  - uid: 18708
+    components:
+    - type: Transform
+      pos: 65.48173,-46.57315
+      parent: 2
+  - uid: 18711
+    components:
+    - type: Transform
+      pos: 63.742138,-45.655846
+      parent: 2
+  - uid: 18712
+    components:
+    - type: MetaData
+      desc: Caw! Squawk!
+      name: Nova
+    - type: Transform
+      pos: -26.624834,45.024727
+      parent: 2
   - uid: 18715
     components:
     - type: Transform
@@ -121278,19 +121344,22 @@ entities:
     - type: Transform
       pos: 2.1432827,-42.56534
       parent: 2
+  - uid: 18719
+    components:
+    - type: Transform
+      pos: 65.26298,-47.313248
+      parent: 2
+  - uid: 18722
+    components:
+    - type: Transform
+      pos: 63.908806,-47.22986
+      parent: 2
 - proto: PlushieMoth
   entities:
   - uid: 18718
     components:
     - type: Transform
       pos: 65.52339,-45.436943
-      parent: 2
-- proto: PlushieLizard
-  entities:
-  - uid: 18719
-    components:
-    - type: Transform
-      pos: 65.26298,-47.313248
       parent: 2
 - proto: PlushieSlime
   entities:
@@ -121308,13 +121377,6 @@ entities:
       name: the real captain
     - type: Transform
       pos: -19.00555,-33.394768
-      parent: 2
-- proto: PlushieLizard
-  entities:
-  - uid: 18722
-    components:
-    - type: Transform
-      pos: 63.908806,-47.22986
       parent: 2
 - proto: PlushieXeno
   entities:
@@ -130834,13 +130896,6 @@ entities:
     - type: Transform
       pos: -11.5,-7.5
       parent: 2
-- proto: SecureCabinetCommand
-  entities:
-  - uid: 20473
-    components:
-    - type: Transform
-      pos: -17.5,-35.5
-      parent: 2
 - proto: SecureCabinetDetective
   entities:
   - uid: 20474
@@ -133924,6 +133979,13 @@ entities:
       parent: 2
     - type: ConditionalSpawner
       chance: 0.05
+- proto: SpawnPointAdminAssistant
+  entities:
+  - uid: 20473
+    components:
+    - type: Transform
+      pos: -16.5,-36.5
+      parent: 2
 - proto: SpawnPointAtmos
   entities:
   - uid: 20882
@@ -156646,15 +156708,6 @@ entities:
     components:
     - type: Transform
       pos: 61.610023,-6.601143
-      parent: 2
-- proto: WeaponLaserGun
-  entities:
-  - uid: 25004
-    components:
-    - type: MetaData
-      name: THE SIFFY WIFFY SOOPER SOAKER >w<
-    - type: Transform
-      pos: 57.548103,-20.465229
       parent: 2
 - proto: WeaponShotgunKammererNonLethal
   entities:

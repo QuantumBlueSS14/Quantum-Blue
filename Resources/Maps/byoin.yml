@@ -1,11 +1,11 @@
 meta:
   format: 7
   category: Map
-  engineVersion: 260.2.0
+  engineVersion: 267.2.1
   forkId: ""
   forkVersion: ""
-  time: 07/31/2025 07:44:41
-  entityCount: 19190
+  time: 10/09/2025 10:36:49
+  entityCount: 19181
 maps:
 - 1
 grids:
@@ -37187,52 +37187,6 @@ entities:
     components:
     - type: Transform
       pos: 57.5378,36.61296
-      parent: 2
-- proto: CapacitorStockPart
-  entities:
-  - uid: 1660
-    components:
-    - type: Transform
-      pos: 43.521965,-1.6249313
-      parent: 2
-  - uid: 2951
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -26.54267,16.697376
-      parent: 2
-  - uid: 8744
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -26.417824,16.775501
-      parent: 2
-  - uid: 11179
-    components:
-    - type: Transform
-      pos: 43.521965,-1.3905565
-      parent: 2
-  - uid: 11305
-    components:
-    - type: Transform
-      pos: 105.62329,-15.630203
-      parent: 2
-  - uid: 11502
-    components:
-    - type: Transform
-      pos: 105.763916,-15.419267
-      parent: 2
-  - uid: 16430
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 28.824402,-19.315338
-      parent: 2
-  - uid: 16431
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 28.683777,-19.252838
       parent: 2
 - proto: CarbonDioxideCanister
   entities:
@@ -89021,6 +88975,12 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 73.5,-17.5
       parent: 2
+  - uid: 7620
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 2.5,21.5
+      parent: 2
   - uid: 11646
     components:
     - type: Transform
@@ -89137,6 +89097,12 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -3.5,-10.5
+      parent: 2
+  - uid: 8070
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 27.5,-6.5
       parent: 2
   - uid: 8626
     components:
@@ -89465,6 +89431,12 @@ entities:
       parent: 2
 - proto: IntercomService
   entities:
+  - uid: 1902
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 41.5,-29.5
+      parent: 2
   - uid: 7205
     components:
     - type: Transform
@@ -90761,6 +90733,13 @@ entities:
         7089:
         - - Pressed
           - Toggle
+- proto: LockerAdministrativeAssistantFilled
+  entities:
+  - uid: 8319
+    components:
+    - type: Transform
+      pos: 5.5,23.5
+      parent: 2
 - proto: LockerAtmosphericsFilledHardsuit
   entities:
   - uid: 6403
@@ -91601,20 +91580,6 @@ entities:
     - type: Transform
       pos: 42.794758,21.463425
       parent: 2
-- proto: MagazineMagnum
-  entities:
-  - uid: 12600
-    components:
-    - type: Transform
-      pos: 34.099907,14.390897
-      parent: 2
-- proto: MagazineMagnumRubber
-  entities:
-  - uid: 12436
-    components:
-    - type: Transform
-      pos: 33.86061,14.422147
-      parent: 2
 - proto: MagazinePistolPractice
   entities:
   - uid: 15429
@@ -92284,6 +92249,52 @@ entities:
     components:
     - type: Transform
       pos: 23.5,37.5
+      parent: 2
+- proto: MicroManipulatorStockPart
+  entities:
+  - uid: 1660
+    components:
+    - type: Transform
+      pos: 43.521965,-1.6249313
+      parent: 2
+  - uid: 2951
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -26.54267,16.697376
+      parent: 2
+  - uid: 8744
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -26.417824,16.775501
+      parent: 2
+  - uid: 11179
+    components:
+    - type: Transform
+      pos: 43.521965,-1.3905565
+      parent: 2
+  - uid: 11305
+    components:
+    - type: Transform
+      pos: 105.62329,-15.630203
+      parent: 2
+  - uid: 11502
+    components:
+    - type: Transform
+      pos: 105.763916,-15.419267
+      parent: 2
+  - uid: 16430
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 28.824402,-19.315338
+      parent: 2
+  - uid: 16431
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 28.683777,-19.252838
       parent: 2
 - proto: MicrophoneInstrument
   entities:
@@ -94019,6 +94030,11 @@ entities:
     - type: Transform
       pos: 49.540028,21.708067
       parent: 2
+  - uid: 18811
+    components:
+    - type: Transform
+      pos: 34.798096,35.482162
+      parent: 2
 - proto: PlushieMoth
   entities:
   - uid: 18908
@@ -94032,13 +94048,6 @@ entities:
     components:
     - type: Transform
       pos: 22.294851,27.696293
-      parent: 2
-- proto: PlushieLizard
-  entities:
-  - uid: 18811
-    components:
-    - type: Transform
-      pos: 34.798096,35.482162
       parent: 2
 - proto: PlushiePenguin
   entities:
@@ -105671,6 +105680,13 @@ entities:
     - type: Transform
       pos: 5.5,-21.5
       parent: 2
+- proto: SpawnPointAdminAssistant
+  entities:
+  - uid: 8318
+    components:
+    - type: Transform
+      pos: 8.5,21.5
+      parent: 2
 - proto: SpawnPointAtmos
   entities:
   - uid: 5157
@@ -106433,41 +106449,6 @@ entities:
       parent: 2
 - proto: SpawnPointPrisoner
   entities:
-  - uid: 7620
-    components:
-    - type: Transform
-      pos: 55.5,33.5
-      parent: 2
-  - uid: 8070
-    components:
-    - type: Transform
-      pos: 55.5,36.5
-      parent: 2
-  - uid: 12204
-    components:
-    - type: Transform
-      pos: 53.5,32.5
-      parent: 2
-  - uid: 12242
-    components:
-    - type: Transform
-      pos: 54.5,23.5
-      parent: 2
-  - uid: 12243
-    components:
-    - type: Transform
-      pos: 57.5,23.5
-      parent: 2
-  - uid: 12244
-    components:
-    - type: Transform
-      pos: 60.5,23.5
-      parent: 2
-  - uid: 12245
-    components:
-    - type: Transform
-      pos: 60.5,29.5
-      parent: 2
   - uid: 12248
     components:
     - type: Transform
@@ -106721,28 +106702,6 @@ entities:
     components:
     - type: Transform
       pos: 42.5,23.5
-      parent: 2
-- proto: SpawnPointServiceWorker
-  entities:
-  - uid: 1902
-    components:
-    - type: Transform
-      pos: 21.5,-4.5
-      parent: 2
-  - uid: 8318
-    components:
-    - type: Transform
-      pos: 2.5,-5.5
-      parent: 2
-  - uid: 8319
-    components:
-    - type: Transform
-      pos: 11.5,-5.5
-      parent: 2
-  - uid: 15153
-    components:
-    - type: Transform
-      pos: 8.5,-7.5
       parent: 2
 - proto: SpawnPointStationEngineer
   entities:
@@ -122655,16 +122614,6 @@ entities:
     components:
     - type: Transform
       pos: 54.575718,-21.594376
-      parent: 2
-- proto: WeaponPistolN1984Nonlethal
-  entities:
-  - uid: 12374
-    components:
-    - type: MetaData
-      desc: An older model of N1984, covered in dents, scrapes, and gouges, yet the mechanical components are well maintained. You can see "Maniacel" crudely engraved on the slide.
-      name: N1984 "Maniacal"
-    - type: Transform
-      pos: 33.427536,14.4358425
       parent: 2
 - proto: WeaponRifleFoam
   entities:
