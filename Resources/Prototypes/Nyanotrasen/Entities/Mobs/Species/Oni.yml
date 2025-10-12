@@ -9,7 +9,6 @@
   - type: HumanoidAppearance
     species: Oni
   - type: Sprite
-  - type: ScaleVisuals
     scale: 1.2, 1.2
   - type: PlayerToolModifier
     pryTimeMultiplier: 0.6

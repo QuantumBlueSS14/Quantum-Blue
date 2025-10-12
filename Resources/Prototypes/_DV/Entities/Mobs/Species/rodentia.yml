@@ -15,8 +15,6 @@
   - type: Icon
     sprite: _DV/Mobs/Species/Rodentia/parts.rsi
     state: full
-  - type: ScaleVisuals
-    scale: 0.8, 0.8
   - type: Body
     prototype: Rodentia
   - type: Speech
@@ -36,6 +34,7 @@
         layer:
         - MobLayer
   - type: Sprite
+    scale: 0.8, 0.8
     layers:
       - map: [ "enum.HumanoidVisualLayers.Chest" ]
       - map: [ "enum.HumanoidVisualLayers.Head" ]
