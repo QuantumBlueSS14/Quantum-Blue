@@ -3,7 +3,7 @@
   abstract: true
   components:
   - type: GhostRole
-#  - type: IntrinsicRadioReceiver # DeltaV - comment out
+  - type: IntrinsicRadioReceiver # QB - Uncommented for radio functionality
   - type: CargoSellBlacklist
 
 - type: entity
@@ -17,6 +17,10 @@
     description: ghost-role-information-deltav-clippy-description # DeltaV - Alternate Description
     rules: ghost-role-information-nonantagonist-rules
 #    prototype: CatClippy # DeltaV - Comment out
+  - type: Speech # QB - Add emotes for Clippy
+    speechSounds: Cat
+    speechVerb: SmallMob
+    allowedEmotes: ['Meow', 'Hiss', 'Mew', 'Purr', 'Growl']
   - type: Loadout
     prototypes: [ MobClippyGear ]
   - type: RandomMetadata
@@ -30,14 +34,14 @@
     - id: FoodMeatCat
       amount: 1
 #    - id: MaterialHideClippy
-#  - type: IntrinsicRadioTransmitter # DeltaV - Comment out Radio Channels
-#    channels:
-#    - Service
-#  - type: ActiveRadio
-#    channels:
-#    - Service 
+  - type: IntrinsicRadioTransmitter # QB - Uncommented and changed to Supply for mail/logistics
+    channels:
+    - Supply
+  - type: ActiveRadio
+    channels:
+    - Supply
   - type: NpcFactionMember
     factions:
       - Cat
       - PetsNT
-#  - type: ShowJobIcons # DeltaV - Comment out
+  - type: ShowJobIcons
