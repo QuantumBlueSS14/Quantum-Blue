@@ -21,7 +21,7 @@
         Slash: 0.95
         Piercing: 0.95
         Heat: 0.95
-  - type: ClothingGrantComponent
+  - type: ClothingGrant
     component:
     - type: Stealth
     # Harmony start
