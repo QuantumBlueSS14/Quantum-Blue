@@ -150,6 +150,5 @@
   - type: CosmicGlyphAstralProjection
   - type: CosmicGlyph
     requiredCultists: 1
-    eraseOnUse: true # This is something that you may use early into the round where there aren't many cultists to hide it for you, so it erases automaticaly.
   - type: CosmicCultExamine
     cultistText: cosmic-examine-glyph-projection
