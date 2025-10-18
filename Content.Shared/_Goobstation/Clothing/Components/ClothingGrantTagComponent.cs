@@ -7,15 +7,17 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
-namespace Content.Shared._Goobstation.Clothing.Components // Goobstation
-{
-    [RegisterComponent]
-    public sealed partial class ClothingGrantTagComponent : Component
-    {
-        [DataField("tag", required: true), ViewVariables(VVAccess.ReadWrite)]
-        public string Tag = "";
+using Content.Shared.Tag; // harmony
+using Robust.Shared.Prototypes; // harmony
 
-        [ViewVariables(VVAccess.ReadWrite)]
-        public bool IsActive = false;
-    }
+namespace Content.Shared._Goobstation.Clothing.Components;
+
+[RegisterComponent]
+public sealed partial class ClothingGrantTagComponent : Component
+{
+    [DataField("tag", required: true), ViewVariables(VVAccess.ReadWrite)]
+    public ProtoId<TagPrototype> Tag = ""; // Harmony - change to protoid
+
+    [ViewVariables(VVAccess.ReadWrite)]
+    public bool IsActive = false;
 }
