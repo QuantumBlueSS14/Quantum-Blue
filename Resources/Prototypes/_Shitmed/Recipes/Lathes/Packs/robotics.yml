@@ -35,5 +35,13 @@
   - JawsOfLifeRightArm
   - SpeedLeftLeg
   - SpeedRightLeg
-  - BasicCyberneticEyes
+  # - BasicCyberneticEyes # DeltaV - Moved to CyberneticsRobotics
   - ClothingHandsGlovesMechanicalSurgical
+
+  # Begin DeltaV additions
+- type: latheRecipePack # DeltaV - Share Surgery Parts between Epi and Med. Non-Organic & Robotics cybernetics moved to ExoFab.
+  parent: Cybernetics
+  id: CyberneticsRobotics
+  recipes:
+  - BasicCyberneticEyes
+  # End DeltaV additions
