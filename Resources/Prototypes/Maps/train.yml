@@ -18,7 +18,7 @@
             !type:NanotrasenNameGenerator
             prefixCreator: 'DV'
         - type: StationJobs
-          availableJobs: # Max of 76 inc. latejoins and trainees.
+          availableJobs: # Max of 78 inc. latejoins and trainees.
             # command - 3
             AdministrativeAssistant: [ 1, 1 ]
             Captain: [ 1, 1 ]
@@ -65,11 +65,11 @@
             Brigmedic: [ 1, 1 ]
             SecurityCadet: [ 3, 3 ]
             SecurityOfficer: [ 5, 5 ]
-            # supply 9
+            # supply 11
             Quartermaster: [ 1, 1 ]
-            Courier: [ 1, 1 ]
+            Courier: [ 1, 2 ]
             SalvageSpecialist: [ 3, 3 ]
             CargoTechnician: [ 3, 3 ]
-            SupplyAssistant: [ 1, 1 ]
+            CargoAssistant: [ 1, 2 ]
             # civilian
             Passenger: [ -1, -1 ]
