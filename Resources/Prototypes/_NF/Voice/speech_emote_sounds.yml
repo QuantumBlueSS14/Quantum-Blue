@@ -1,9 +1,19 @@
 - type: emoteSounds
   id: Cat
-  sound:
-    path: /Audio/Animals/cat_meow.ogg
-    params:
-      variation: 0.125
+  params:
+    variation: 0.125
+  # QB - Add specific sounds for each emote
+  sounds:
+    Meow:
+      collection: FelinidMeows
+    Hiss:
+      collection: FelinidHisses
+    Mew:
+      collection: FelinidMews
+    Growl:
+      collection: FelinidGrowls
+    Purr:
+      collection: FelinidPurrs
 
 - type: emoteSounds
   id: NfsdCat
