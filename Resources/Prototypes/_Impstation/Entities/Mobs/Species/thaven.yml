@@ -21,7 +21,6 @@
   - type: Sprite
     noRot: true
     drawdepth: Mobs
-  - type: ScaleVisuals
     scale: 1, 1.05
   - type: Body
     prototype: Thaven
@@ -137,8 +136,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-  - type: ScaleVisuals
-    scale: 1, 1
+    scale: 1, 1.05
   - type: Inventory
     templateId: thaven
     displacements:

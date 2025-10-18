@@ -138,20 +138,15 @@ namespace Content.Server.Abilities.Psionics
             if (args.Handled)
                 return;
 
+            if (!HasComp<MindSwappedComponent>(args.Mind.CurrentEntity))
+                return;
+
             //No idea where the viaCommand went. It's on the internal OnGhostAttempt, but not this layer. Maybe unnecessary.
             /*if (!args.viaCommand)
                 return;*/
 
-            // DeltaV - start of trapped ghost fix
-            // If you're able to swap back to your original body, you should swap back before you ghost.
-            if (TryComp<MindSwappedComponent>(args.Mind.CurrentEntity, out var component)
-                && _actions.GetAction(component.MindSwapReturnActionEntity) is { } action
-                && action.Comp.AttachedEntity is not null)
-            {
-                args.Result = false;
-                args.Handled = true;
-            }
-            // DeltaV - end of trapped ghost fix
+            args.Result = false;
+            args.Handled = true;
         }
 
         private void OnSwapInit(EntityUid uid, MindSwappedComponent component, ComponentInit args)

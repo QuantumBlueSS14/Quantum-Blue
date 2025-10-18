@@ -15,9 +15,3 @@
 
 - type: statusEffect
   id: PainNumbness
-
-- type: statusEffect
-  id: ScrambledSpeech
-
-- type: statusEffect
-  id: RepeatingTelepath
