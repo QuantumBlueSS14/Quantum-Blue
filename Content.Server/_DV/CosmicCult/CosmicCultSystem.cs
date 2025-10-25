@@ -88,9 +88,6 @@ public sealed partial class CosmicCultSystem : SharedCosmicCultSystem
 
         SubscribeLocalEvent<CosmicCultComponent, EncryptionChannelsChangedEvent>(OnTransmitterChannelsChangedCult, after: new[] { typeof(IntrinsicRadioKeySystem) });
 
-        SubscribeLocalEvent<RadioSendAttemptEvent>(OnRadioSendAttempt);
-        SubscribeLocalEvent<CosmicJammerComponent, AnchorStateChangedEvent>(OnJammerAnchorStateChange);
-
         SubscribeLocalEvent<SpeechOverrideComponent, GotEquippedEvent>(OnGotSpeechOverrideEquipped);
         SubscribeLocalEvent<SpeechOverrideComponent, GotUnequippedEvent>(OnGotSpeechOverrideUnequipped);
 
