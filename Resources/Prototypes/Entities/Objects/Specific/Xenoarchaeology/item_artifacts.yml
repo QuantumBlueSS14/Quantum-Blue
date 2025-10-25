@@ -54,6 +54,10 @@
       enum.IntercomUiKey.Key:
         type: IntercomBoundUserInterface
   - type: Appearance
+  - type: Tag # DeltaV - allows for artifacts to be used in the crafting system
+    tags:
+      - Artifact
+  # gameplay interactions
   - type: Item
     size: Normal
     sprite: Objects/Specific/Xenoarchaeology/item_artifacts.rsi

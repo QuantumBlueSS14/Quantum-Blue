@@ -95,10 +95,22 @@ public sealed partial class DCCVars
         CVarDef.Create("accessibility.no_vision_filters", true, CVar.CLIENTONLY | CVar.ARCHIVE);
 
     /// <summary>
+    /// Disables the fullscreen shader at 700+ glimmer.
+    /// </summary>
+    public static readonly CVarDef<bool> DisableGlimmerShader =
+        CVarDef.Create("accessibility.disable_glimmer_shader", false, CVar.CLIENTONLY | CVar.ARCHIVE);
+
+    /// <summary>
     /// Whether the Shipyard is enabled.
     /// </summary>
     public static readonly CVarDef<bool> Shipyard =
         CVarDef.Create("shuttle.shipyard", true, CVar.SERVERONLY);
+
+    /// <summary>
+    /// What year it is in the game. Actual value shown in game is server date + this value.
+    /// </summary>
+    public static readonly CVarDef<int> YearOffset =
+        CVarDef.Create("game.current_year_offset", 3813, CVar.SERVERONLY);
 
     /*
      * Feedback webhook
