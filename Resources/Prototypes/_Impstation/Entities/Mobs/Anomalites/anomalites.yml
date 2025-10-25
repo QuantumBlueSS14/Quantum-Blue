@@ -643,12 +643,13 @@
   - type: InnerBodyAnomaly
     injectionProto: AnomalyInjectionShadow
     skipStun: true
-  - type: NightVision
-    isActive: true
-    toggleAction: null
-    color: "#50595C"
-    activateSound: null
-    deactivateSound: null
+# QB: Commented out until we have nightvision ported in
+#  - type: NightVision
+#    isActive: true
+#    toggleAction: null
+#    color: "#50595C"
+#    activateSound: null
+#    deactivateSound: null
 
 # Tech
 - type: entity
