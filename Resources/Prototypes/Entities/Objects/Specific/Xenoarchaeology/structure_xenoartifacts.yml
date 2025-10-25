@@ -50,12 +50,14 @@
         mask:
         - MachineMask
 
-- type: entity
-  parent: BaseXenoArtifactStructure
-  id: ComplexXenoArtifact
-  components:
-  - type: XenoArtifact
-    nodeCount:
-      min: 9
-      max: 13
+# QB: Commenting out to fix a duplication of ComplexXenoArtifact, the other of which is located in Entities/Objects/Specific/Xenoarchaeology/structure_artifacts.yml
+#     I don't actually know which is better to remove so not outright deleting this yet.
+#- type: entity
+#  parent: BaseXenoArtifactStructure
+#  id: ComplexXenoArtifact
+#  components:
+#  - type: Artifact
+#    nodeCount:
+#      min: 9
+#      max: 13
 
