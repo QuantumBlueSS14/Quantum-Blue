@@ -3,7 +3,7 @@
   mapName: 'Chibi'
   mapPath: /Maps/chibi.yml
   minPlayers: 0
-  maxPlayers: 4
+  maxPlayers: 8
   stations:
     Chibi:
       stationProto: StandardNanotrasenStation
@@ -18,6 +18,10 @@
             Captain: [ 1, 1 ]
           #service
             Janitor: [ 1, 1 ]
+            Bartender: [ 1, 1 ]
+            Botanist: [ 1, 1 ]
+            Chef: [ 1, 1 ]
+            Musician: [ 1, 1 ]
           #engineering
             AtmosphericTechnician: [ 1, 1 ]
             ChiefEngineer: [ 1, 1 ]
