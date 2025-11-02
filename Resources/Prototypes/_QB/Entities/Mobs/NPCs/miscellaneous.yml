@@ -1,0 +1,27 @@
+﻿- type: entity
+  parent: MobUraniumCrab
+  id: MobSMCrab
+  name: Supermatter Crab
+  description: Ethically Sourced! Definitely.
+  components:
+  - type: Sprite
+    scale: 3, 3
+  - type: PointLight
+    radius: 20
+    falloff: 75
+    energy: 50
+    color: "#FFD500"
+  - type: InteractionPopup
+    successChance: 1
+    interactSuccessString: petting-success-supermatter-crab
+    interactSuccessSpawn: EffectHearts
+  - type: DamageOnInteract
+    damage:
+      types:
+        Radiation: 5
+        Cellular: 5
+  - type: RadiationSource
+    intensity: 8
+    slope: 0.5
+  - type: Colored
+    color: "#FFD500"
